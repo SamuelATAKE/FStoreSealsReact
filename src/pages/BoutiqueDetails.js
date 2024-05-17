@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ShopNewsLetter from '../components/ShopNewsLetter'
+import CommonHeader from '../components/CommonHeader'
 
 const BoutiqueDetails = () => {
     return (
         <>
-            <Header />
+            <CommonHeader />
             <div class="breadcrumbs">
                 <div class="container">
                     <div class="row">
@@ -28,7 +28,7 @@ const BoutiqueDetails = () => {
                         <div class="col-lg-3 col-md-4 col-12">
                             <div class="shop-sidebar">
                                 <div class="single-widget category">
-                                    <h3 class="title">Categories</h3>
+                                    <h3 class="title">Catégories</h3>
                                     <ul class="categor-list">
                                         <li><a href="/#">T-shirts</a></li>
                                         <li><a href="/#">jacket</a></li>
@@ -40,38 +40,38 @@ const BoutiqueDetails = () => {
                                     </ul>
                                 </div>
                                 <div class="single-widget range">
-                                    <h3 class="title">Shop by Price</h3>
+                                    <h3 class="title">Boutique par prix</h3>
                                     <div class="price-filter">
                                         <div class="price-filter-inner">
                                             <div id="slider-range"></div>
                                             <div class="price_slider_amount">
                                                 <div class="label-input">
-                                                    <span>Range:</span><input type="text" id="amount" name="price" placeholder="Add Your Price" />
+                                                    <span>Tranche:</span><input type="text" id="amount" name="price" placeholder="Ajouter votre prix" />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <ul class="check-box-list">
                                         <li>
-                                            <label class="checkbox-inline" for="1"><input name="news" id="1" type="checkbox" />$20 - $50<span class="count">(3)</span></label>
+                                            <label class="checkbox-inline" for="1"><input name="news" id="1" type="checkbox" />2.000 - 5.000 FCFA<span class="count">(3)</span></label>
                                         </li>
                                         <li>
-                                            <label class="checkbox-inline" for="2"><input name="news" id="2" type="checkbox" />$50 - $100<span class="count">(5)</span></label>
+                                            <label class="checkbox-inline" for="2"><input name="news" id="2" type="checkbox" />5.000 - 10.000 FCFA<span class="count">(5)</span></label>
                                         </li>
                                         <li>
-                                            <label class="checkbox-inline" for="3"><input name="news" id="3" type="checkbox" />$100 - $250<span class="count">(8)</span></label>
+                                            <label class="checkbox-inline" for="3"><input name="news" id="3" type="checkbox" />10.000 - 25.000 FCFA<span class="count">(8)</span></label>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="single-widget recent-post">
-                                    <h3 class="title">Recent post</h3>
+                                    <h3 class="title">Posts récents</h3>
                                     <div class="single-post first">
                                         <div class="image">
-                                            <img src="images/single-shop-img1.png" alt="#" />
+                                            <img src="https://via.placeholder.com/225x155" alt="#" />
                                         </div>
                                         <div class="content">
-                                            <h5><a href="/#">Girls Dress</a></h5>
-                                            <p class="price">$99.50</p>
+                                            <h5><a href="/#">Vêtement dames</a></h5>
+                                            <p class="price">9.950 FCFA</p>
                                             <ul class="reviews">
                                                 <li class="yellow"><i class="ti-star"></i></li>
                                                 <li class="yellow"><i class="ti-star"></i></li>
@@ -83,11 +83,11 @@ const BoutiqueDetails = () => {
                                     </div>
                                     <div class="single-post first">
                                         <div class="image">
-                                            <img src="images/single-shop-img2.png" alt="#" />
+                                            <img src="https://via.placeholder.com/225x155" alt="#" />
                                         </div>
                                         <div class="content">
-                                            <h5><a href="/#">Women Clothings</a></h5>
-                                            <p class="price">$99.50</p>
+                                            <h5><a href="/#">Vêtements femmes</a></h5>
+                                            <p class="price">9.950 FCFA</p>
                                             <ul class="reviews">
                                                 <li class="yellow"><i class="ti-star"></i></li>
                                                 <li class="yellow"><i class="ti-star"></i></li>
@@ -102,8 +102,8 @@ const BoutiqueDetails = () => {
                                             <img src="images/single-shop-img3.png" alt="#" />
                                         </div>
                                         <div class="content">
-                                            <h5><a href="/#">Man Tshirt</a></h5>
-                                            <p class="price">$99.50</p>
+                                            <h5><a href="/#">Shirts hommes</a></h5>
+                                            <p class="price">9.950 FCFA</p>
                                             <ul class="reviews">
                                                 <li class="yellow"><i class="ti-star"></i></li>
                                                 <li class="yellow"><i class="ti-star"></i></li>
@@ -132,7 +132,7 @@ const BoutiqueDetails = () => {
                                     <div class="shop-top">
                                         <div class="shop-shorter">
                                             <div class="single-shorter">
-                                                <label>Show :</label>
+                                                <label>Afficher :</label>
                                                 <select>
                                                     <option selected="selected">09</option>
                                                     <option>15</option>
@@ -141,11 +141,11 @@ const BoutiqueDetails = () => {
                                                 </select>
                                             </div>
                                             <div class="single-shorter">
-                                                <label>Sort By :</label>
+                                                <label>Filtrer par :</label>
                                                 <select>
-                                                    <option selected="selected">Name</option>
-                                                    <option>Price</option>
-                                                    <option>Size</option>
+                                                    <option selected="selected">Nom</option>
+                                                    <option>Prix</option>
+                                                    <option>Taille</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -162,18 +162,18 @@ const BoutiqueDetails = () => {
                                         <div class="col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product">
                                                 <div class="product-img">
-                                                    <a href="product-details.html">
-                                                        <img class="default-img" src="images/products/p1.jpg" alt="#" />
-                                                        <img class="hover-img" src="images/products/p2.jpg" alt="#" />
+                                                    <a href="/article">
+                                                        <img class="default-img" src="https://via.placeholder.com/225x155" alt="#" />
+                                                        <img class="hover-img" src="https://via.placeholder.com/225x155" alt="#" />
                                                     </a>
                                                     <div class="button-head">
                                                         <div class="product-action">
-                                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="/#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                            <a title="Wishlist" href="/#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                            <a title="Compare" href="/#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="/#"><i class=" ti-eye"></i><span>Achat rapide</span></a>
+                                                            <a title="Liste de souhaits" href="/#"><i class=" ti-heart "></i><span>Ajouter à la liste de souhaits</span></a>
+                                                            <a title="Comparaison" href="/#"><i class="ti-bar-chart-alt"></i><span>Ajouter à la Comparaison</span></a>
                                                         </div>
                                                         <div class="product-action-2">
-                                                            <a title="Add to cart" href="/#">Add to cart</a>
+                                                            <a title="Ajouter au panier" href="/#">Ajouter au panier</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -183,9 +183,9 @@ const BoutiqueDetails = () => {
                                             <div class="list-content">
                                                 <div class="product-content">
                                                     <div class="product-price">
-                                                        <span>$29.00</span>
+                                                        <span>2.900 FCFA</span>
                                                     </div>
-                                                    <h3 class="title"><a href="product-details.html">Women hot collection</a></h3>
+                                                    <h3 class="title"><a href="/article">Collection Tendance Femmes</a></h3>
                                                     <div class="review-inner">
                                                         <div class="ratings">
                                                             <ul class="rating">
@@ -200,7 +200,7 @@ const BoutiqueDetails = () => {
                                                     </div>
                                                 </div>
                                                 <p class="des">nteger enim purus, posuere at ultricies eu, placerat a felis. Suspendisse aliquet urna pretium eros convallis interdum.  Suspendisse aliquet urna pretium eros convallis interdum. Quisque in arcu id dui vulputate mollis eget non arcu. Aenean et nulla purus. Mauris vel tellus non nunc mattis lobortis We are creative company here are many variation generators on the Internet tend to chunks as necessary interdum</p>
-                                                <a href="/#" class="btn">Buy Now!</a>
+                                                <a href="/#" class="btn">Acheter</a>
                                             </div>
                                         </div>
                                     </div>
@@ -210,18 +210,18 @@ const BoutiqueDetails = () => {
                                         <div class="col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product">
                                                 <div class="product-img">
-                                                    <a href="product-details.html">
-                                                        <img class="default-img" src="images/products/p13.jpg" alt="#" />
-                                                        <img class="hover-img" src="images/products/p14.jpg" alt="#" />
+                                                    <a href="/article">
+                                                        <img class="default-img" src="https://via.placeholder.com/225x155" alt="#" />
+                                                        <img class="hover-img" src="https://via.placeholder.com/225x155" alt="#" />
                                                     </a>
                                                     <div class="button-head">
                                                         <div class="product-action">
                                                             <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="/#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                            <a title="Wishlist" href="/#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                            <a title="Compare" href="/#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                            <a title="Liste de souhaits" href="/#"><i class=" ti-heart "></i><span>Ajouter à la liste de souhaits</span></a>
+                                                            <a title="Comparaison" href="/#"><i class="ti-bar-chart-alt"></i><span>Ajouter à la Comparaison</span></a>
                                                         </div>
                                                         <div class="product-action-2">
-                                                            <a title="Add to cart" href="/#">Add to cart</a>
+                                                            <a title="Ajouter au panier" href="/#">Ajouter au panier</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -231,9 +231,9 @@ const BoutiqueDetails = () => {
                                             <div class="list-content">
                                                 <div class="product-content">
                                                     <div class="product-price">
-                                                        <span>$29.00</span>
+                                                        <span>2.900 FCFA</span>
                                                     </div>
-                                                    <h3 class="title"><a href="product-details.html">Women hot collection</a></h3>
+                                                    <h3 class="title"><a href="/article">Collection Tendances Femmes</a></h3>
                                                     <div class="review-inner">
                                                         <div class="ratings">
                                                             <ul class="rating">
@@ -248,7 +248,7 @@ const BoutiqueDetails = () => {
                                                     </div>
                                                 </div>
                                                 <p class="des">nteger enim purus, posuere at ultricies eu, placerat a felis. Suspendisse aliquet urna pretium eros convallis interdum.  Suspendisse aliquet urna pretium eros convallis interdum. Quisque in arcu id dui vulputate mollis eget non arcu. Aenean et nulla purus. Mauris vel tellus non nunc mattis lobortis We are creative company here are many variation generators on the Internet tend to chunks as necessary interdum</p>
-                                                <a href="/#" class="btn">Buy Now!</a>
+                                                <a href="/#" class="btn">Acheter</a>
                                             </div>
                                         </div>
                                     </div>
@@ -258,19 +258,19 @@ const BoutiqueDetails = () => {
                                         <div class="col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product">
                                                 <div class="product-img">
-                                                    <a href="product-details.html">
-                                                        <img class="default-img" src="images/products/p11.jpg" alt="#" />
-                                                        <img class="hover-img" src="images/products/p12.jpg" alt="#" />
+                                                    <a href="/article">
+                                                        <img class="default-img" src="https://via.placeholder.com/225x155" alt="#" />
+                                                        <img class="hover-img" src="https://via.placeholder.com/225x155" alt="#" />
                                                         <span class="price-dec">30% Off</span>
                                                     </a>
                                                     <div class="button-head">
                                                         <div class="product-action">
                                                             <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="/#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                            <a title="Wishlist" href="/#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                            <a title="Compare" href="/#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                            <a title="Liste de souhaits" href="/#"><i class=" ti-heart "></i><span>Ajouter à la liste de souhaits</span></a>
+                                                            <a title="Comparaison" href="/#"><i class="ti-bar-chart-alt"></i><span>Ajouter à la Comparaison</span></a>
                                                         </div>
                                                         <div class="product-action-2">
-                                                            <a title="Add to cart" href="/#">Add to cart</a>
+                                                            <a title="Ajouter au panier" href="/#">Ajouter au panier</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -280,9 +280,9 @@ const BoutiqueDetails = () => {
                                             <div class="list-content">
                                                 <div class="product-content">
                                                     <div class="product-price">
-                                                        <span>$29.00</span>
+                                                        <span>2.900 FCFA</span>
                                                     </div>
-                                                    <h3 class="title"><a href="product-details.html">Women hot collection</a></h3>
+                                                    <h3 class="title"><a href="/article">Collection tendance Femmes</a></h3>
                                                     <div class="review-inner">
                                                         <div class="ratings">
                                                             <ul class="rating">
@@ -297,7 +297,7 @@ const BoutiqueDetails = () => {
                                                     </div>
                                                 </div>
                                                 <p class="des">nteger enim purus, posuere at ultricies eu, placerat a felis. Suspendisse aliquet urna pretium eros convallis interdum.  Suspendisse aliquet urna pretium eros convallis interdum. Quisque in arcu id dui vulputate mollis eget non arcu. Aenean et nulla purus. Mauris vel tellus non nunc mattis lobortis We are creative company here are many variation generators on the Internet tend to chunks as necessary interdum</p>
-                                                <a href="/#" class="btn">Buy Now!</a>
+                                                <a href="/#" class="btn">Acheter</a>
                                             </div>
                                         </div>
                                     </div>
@@ -307,19 +307,19 @@ const BoutiqueDetails = () => {
                                         <div class="col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product">
                                                 <div class="product-img">
-                                                    <a href="product-details.html">
-                                                        <img class="default-img" src="images/products/p15.jpg" alt="#" />
-                                                        <img class="hover-img" src="images/products/p16.jpg" alt="#" />
-                                                        <span class="out-of-stock">Hot</span>
+                                                    <a href="/article">
+                                                        <img class="default-img" src="https://via.placeholder.com/225x155" alt="#" />
+                                                        <img class="hover-img" src="https://via.placeholder.com/225x155" alt="#" />
+                                                        <span class="out-of-stock">Tendance</span>
                                                     </a>
                                                     <div class="button-head">
                                                         <div class="product-action">
                                                             <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="/#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                            <a title="Wishlist" href="/#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                            <a title="Compare" href="/#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                            <a title="Liste de souhaits" href="/#"><i class=" ti-heart "></i><span>Ajouter à la liste de souhaits</span></a>
+                                                            <a title="Comparaison" href="/#"><i class="ti-bar-chart-alt"></i><span>Ajouter à la Comparaison</span></a>
                                                         </div>
                                                         <div class="product-action-2">
-                                                            <a title="Add to cart" href="/#">Add to cart</a>
+                                                            <a title="Ajouter au panier" href="/panier">Ajouter au panier</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -329,9 +329,9 @@ const BoutiqueDetails = () => {
                                             <div class="list-content">
                                                 <div class="product-content">
                                                     <div class="product-price">
-                                                        <span>$29.00</span>
+                                                        <span>2.900 FCFA</span>
                                                     </div>
-                                                    <h3 class="title"><a href="product-details.html">Women hot collection</a></h3>
+                                                    <h3 class="title"><a href="/article">Collection tendance Femmes</a></h3>
                                                     <div class="review-inner">
                                                         <div class="ratings">
                                                             <ul class="rating">
@@ -346,7 +346,7 @@ const BoutiqueDetails = () => {
                                                     </div>
                                                 </div>
                                                 <p class="des">nteger enim purus, posuere at ultricies eu, placerat a felis. Suspendisse aliquet urna pretium eros convallis interdum.  Suspendisse aliquet urna pretium eros convallis interdum. Quisque in arcu id dui vulputate mollis eget non arcu. Aenean et nulla purus. Mauris vel tellus non nunc mattis lobortis We are creative company here are many variation generators on the Internet tend to chunks as necessary interdum</p>
-                                                <a href="/#" class="btn">Buy Now!</a>
+                                                <a href="/#" class="btn">Acheter</a>
                                             </div>
                                         </div>
                                     </div>

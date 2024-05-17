@@ -104,7 +104,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -120,7 +120,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
+                                                            <h3><a href="/article">Collection Tendance Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -130,7 +130,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -146,7 +146,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
+                                                            <h3><a href="/article">Superbe spectacle rose</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -156,7 +156,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -172,7 +172,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe collection de sacs</a></h3>
+                                                            <h3><a href="/article">Superbe collection de sacs</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -182,7 +182,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="Nouveau">Nouveau</span>
@@ -199,7 +199,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                                                            <h3><a href="/article">Women Pant Collectons</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -209,7 +209,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -225,7 +225,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe collection de sacs</a></h3>
+                                                            <h3><a href="/article">Superbe collection de sacs</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -235,7 +235,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="price-dec">30% Off</span>
@@ -252,7 +252,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe chapeaux pour femmes</a></h3>
+                                                            <h3><a href="/article">Superbe chapeaux pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -262,7 +262,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -278,7 +278,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Vêtements Polo pour Femmes</a></h3>
+                                                            <h3><a href="/article">Vêtements Polo pour Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -288,7 +288,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="out-of-stock">Tendance</span>
@@ -305,7 +305,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
+                                                            <h3><a href="/article">Lunettes de soleil noires pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span class="old">6.000 FCFA</span>
                                                                 <span>5.000 FCFA</span>
@@ -322,7 +322,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -338,7 +338,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
+                                                            <h3><a href="/article">Collection Tendance Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -348,7 +348,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -364,7 +364,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
+                                                            <h3><a href="/article">Superbe spectacle rose</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -374,7 +374,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -390,7 +390,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe collection de sacs</a></h3>
+                                                            <h3><a href="/article">Superbe collection de sacs</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -400,7 +400,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="Nouveau">Nouveau</span>
@@ -417,7 +417,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                                                            <h3><a href="/article">Women Pant Collectons</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -427,7 +427,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -443,7 +443,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe collection de sacs</a></h3>
+                                                            <h3><a href="/article">Superbe collection de sacs</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -453,7 +453,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="price-dec">30% Off</span>
@@ -470,7 +470,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe chapeaux pour femmes</a></h3>
+                                                            <h3><a href="/article">Superbe chapeaux pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -480,7 +480,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -496,7 +496,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Vêtements Polo pour Femmes</a></h3>
+                                                            <h3><a href="/article">Vêtements Polo pour Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -506,7 +506,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="out-of-stock">Tendance</span>
@@ -523,7 +523,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
+                                                            <h3><a href="/article">Lunettes de soleil noires pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span class="old">6.000 FCFA</span>
                                                                 <span>5.000 FCFA</span>
@@ -540,7 +540,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -556,7 +556,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
+                                                            <h3><a href="/article">Collection Tendance Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -566,7 +566,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -582,7 +582,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
+                                                            <h3><a href="/article">Superbe spectacle rose</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -592,7 +592,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -608,7 +608,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe collection de sacs</a></h3>
+                                                            <h3><a href="/article">Superbe collection de sacs</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -618,7 +618,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="Nouveau">Nouveau</span>
@@ -635,7 +635,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                                                            <h3><a href="/article">Women Pant Collectons</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -645,7 +645,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -661,7 +661,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe collection de sacs</a></h3>
+                                                            <h3><a href="/article">Superbe collection de sacs</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -671,7 +671,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="price-dec">30% Off</span>
@@ -688,7 +688,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe chapeaux pour femmes</a></h3>
+                                                            <h3><a href="/article">Superbe chapeaux pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -698,7 +698,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -714,7 +714,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Vêtements Polo pour Femmes</a></h3>
+                                                            <h3><a href="/article">Vêtements Polo pour Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -724,7 +724,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="out-of-stock">Tendance</span>
@@ -741,7 +741,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
+                                                            <h3><a href="/article">Lunettes de soleil noires pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span class="old">6.000 FCFA</span>
                                                                 <span>5.000 FCFA</span>
@@ -758,7 +758,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -774,7 +774,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
+                                                            <h3><a href="/article">Collection Tendance Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -784,7 +784,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -800,7 +800,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
+                                                            <h3><a href="/article">Superbe spectacle rose</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -810,7 +810,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -826,7 +826,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe collection de sacs</a></h3>
+                                                            <h3><a href="/article">Superbe collection de sacs</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -836,7 +836,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="Nouveau">Nouveau</span>
@@ -853,7 +853,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                                                            <h3><a href="/article">Women Pant Collectons</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -863,7 +863,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -879,7 +879,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe collection de sacs</a></h3>
+                                                            <h3><a href="/article">Superbe collection de sacs</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -889,7 +889,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="price-dec">30% Off</span>
@@ -906,7 +906,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe chapeaux pour femmes</a></h3>
+                                                            <h3><a href="/article">Superbe chapeaux pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -916,7 +916,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -932,7 +932,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Vêtements Polo pour Femmes</a></h3>
+                                                            <h3><a href="/article">Vêtements Polo pour Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -942,7 +942,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="out-of-stock">Tendance</span>
@@ -959,7 +959,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
+                                                            <h3><a href="/article">Lunettes de soleil noires pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span class="old">6.000 FCFA</span>
                                                                 <span>5.000 FCFA</span>
@@ -976,7 +976,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -992,7 +992,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
+                                                            <h3><a href="/article">Collection Tendance Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1002,7 +1002,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -1018,7 +1018,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
+                                                            <h3><a href="/article">Superbe spectacle rose</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1028,7 +1028,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -1044,7 +1044,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe collection de sacs</a></h3>
+                                                            <h3><a href="/article">Superbe collection de sacs</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1054,7 +1054,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="Nouveau">Nouveau</span>
@@ -1071,7 +1071,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                                                            <h3><a href="/article">Women Pant Collectons</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1081,7 +1081,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -1097,7 +1097,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe collection de sacs</a></h3>
+                                                            <h3><a href="/article">Superbe collection de sacs</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1107,7 +1107,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="price-dec">30% Off</span>
@@ -1124,7 +1124,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe chapeaux pour femmes</a></h3>
+                                                            <h3><a href="/article">Superbe chapeaux pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1134,7 +1134,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -1150,7 +1150,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Vêtements Polo pour Femmes</a></h3>
+                                                            <h3><a href="/article">Vêtements Polo pour Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1160,7 +1160,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="out-of-stock">Tendance</span>
@@ -1177,7 +1177,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
+                                                            <h3><a href="/article">Lunettes de soleil noires pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span class="old">6.000 FCFA</span>
                                                                 <span>5.000 FCFA</span>
@@ -1194,7 +1194,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -1210,7 +1210,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
+                                                            <h3><a href="/article">Collection Tendance Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1220,7 +1220,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -1236,7 +1236,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
+                                                            <h3><a href="/article">Superbe spectacle rose</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1246,7 +1246,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -1262,7 +1262,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe collection de sacs</a></h3>
+                                                            <h3><a href="/article">Superbe collection de sacs</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1272,7 +1272,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="Nouveau">Nouveau</span>
@@ -1289,7 +1289,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                                                            <h3><a href="/article">Women Pant Collectons</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1299,7 +1299,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -1315,7 +1315,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe collection de sacs</a></h3>
+                                                            <h3><a href="/article">Superbe collection de sacs</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1325,7 +1325,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="price-dec">30% Off</span>
@@ -1342,7 +1342,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Superbe chapeaux pour femmes</a></h3>
+                                                            <h3><a href="/article">Superbe chapeaux pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1352,7 +1352,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                             </a>
@@ -1368,7 +1368,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Vêtements Polo pour Femmes</a></h3>
+                                                            <h3><a href="/article">Vêtements Polo pour Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1378,7 +1378,7 @@ const Home = () => {
                                                 <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                                                     <div class="single-product">
                                                         <div class="product-img">
-                                                            <a href="product-details.html">
+                                                            <a href="/article">
                                                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                                                 <span class="out-of-stock">Tendance</span>
@@ -1395,7 +1395,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
+                                                            <h3><a href="/article">Lunettes de soleil noires pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span class="old">6.000 FCFA</span>
                                                                 <span>5.000 FCFA</span>
@@ -1454,7 +1454,7 @@ const Home = () => {
                             <div class="owl-carousel popular-slider">
                                 <div class="single-product">
                                     <div class="product-img">
-                                        <a href="product-details.html">
+                                        <a href="/article">
                                             <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                             <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                             <span class="out-of-stock">Tendance</span>
@@ -1471,7 +1471,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
+                                        <h3><a href="/article">Lunettes de soleil noires pour femmes</a></h3>
                                         <div class="product-price">
                                             <span class="old">6.000 FCFA</span>
                                             <span>5.000 FCFA</span>
@@ -1480,7 +1480,7 @@ const Home = () => {
                                 </div>
                                 <div class="single-product">
                                     <div class="product-img">
-                                        <a href="product-details.html">
+                                        <a href="/article">
                                             <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                             <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                         </a>
@@ -1496,7 +1496,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
+                                        <h3><a href="/article">Collection Tendance Femmes</a></h3>
                                         <div class="product-price">
                                             <span>5.000 FCFA</span>
                                         </div>
@@ -1504,7 +1504,7 @@ const Home = () => {
                                 </div>
                                 <div class="single-product">
                                     <div class="product-img">
-                                        <a href="product-details.html">
+                                        <a href="/article">
                                             <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                             <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                             <span class="Nouveau">Nouveau</span>
@@ -1521,7 +1521,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
+                                        <h3><a href="/article">Superbe spectacle rose</a></h3>
                                         <div class="product-price">
                                             <span>5.000 FCFA</span>
                                         </div>
@@ -1529,7 +1529,7 @@ const Home = () => {
                                 </div>
                                 <div class="single-product">
                                     <div class="product-img">
-                                        <a href="product-details.html">
+                                        <a href="/article">
                                             <img class="default-img" src="https://via.placeholder.com/550x750" alt="#" />
                                             <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
                                         </a>
@@ -1545,7 +1545,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3><a href="product-details.html">Superbe collection de sacs</a></h3>
+                                        <h3><a href="/article">Superbe collection de sacs</a></h3>
                                         <div class="product-price">
                                             <span>5.000 FCFA</span>
                                         </div>

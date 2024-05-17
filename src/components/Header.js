@@ -25,7 +25,7 @@ const Header = () => {
                                     {/* <li><i class="ti-location-pin"></i>Votre localisation</li>
                                     <li><i class="ti-alarm-clock"></i> <a href="/#">Daily deal</a></li> */}
                                     <li><i class="ti-user"></i> <a href="/#">Mon compte</a></li>
-                                    <li><i class="ti-power-off"></i><a href="login.html#">Connexion</a></li>
+                                    <li><i class="ti-power-off"></i><a href="/connexion">Connexion</a></li>
                                 </ul>
                             </div>
 
@@ -197,7 +197,7 @@ const Header = () => {
                                             <div class="nav-inner">
                                                 <ul class="nav main-menu menu navbar-nav">
                                                     <li class="active"><a href="/#">Accueil</a></li>
-                                                    <li><a href="/#">Articles</a></li>
+                                                    {/* <li><a href="/#">Articles</a></li> */}
                                                     <li><a href="/boutiques">Boutiques</a></li>
                                                     <li><a href="/#">Achat<i class="ti-angle-down"></i><span class="new">Nouveau</span></a>
                                                         <ul class="dropdown">

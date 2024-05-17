@@ -30,91 +30,91 @@ const Boutiques = () => {
                             <div class="row">
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="shop-single-blog">
-                                        <img src="images/blog1.jpg" alt="#" />
+                                        <img src="https://via.placeholder.com/225x155" alt="#" />
                                         <div class="content">
                                             <p class="date">Agoè</p>
-                                            <a href="/#" class="title">Sed adipiscing ornare.</a>
-                                            <a href="/#" class="more-btn">Explorer</a>
+                                            <a href="/boutique-details" class="title">Keas Shop</a>
+                                            <a href="/boutique-details" class="more-btn">Explorer</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="shop-single-blog">
-                                        <img src="images/blog2.jpg" alt="#" />
+                                        <img src="https://via.placeholder.com/225x155" alt="#" />
                                         <div class="content">
                                             <p class="date">Adidogomé</p>
-                                            <a href="/#" class="title">Man’s Fashion Winter Sale</a>
-                                            <a href="/#" class="more-btn">Explorer</a>
+                                            <a href="/boutique-details" class="title">La Class A</a>
+                                            <a href="/boutique-details" class="more-btn">Explorer</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="shop-single-blog">
-                                        <img src="images/blog3.jpg" alt="#" />
+                                        <img src="https://via.placeholder.com/225x155" alt="#" />
                                         <div class="content">
                                             <p class="date">Adidogomé</p>
-                                            <a href="/#" class="title">Women Fashion Festive</a>
-                                            <a href="/#" class="more-btn">Explorer</a>
+                                            <a href="/boutique-details" class="title">Electronique du millénium</a>
+                                            <a href="/boutique-details" class="more-btn">Explorer</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="shop-single-blog">
-                                        <img src="images/blog1.jpg" alt="#" />
+                                        <img src="https://via.placeholder.com/225x155" alt="#" />
                                         <div class="content">
                                             <p class="date">Agoè</p>
-                                            <a href="/#" class="title">Sed adipiscing ornare.</a>
-                                            <a href="/#" class="more-btn">Explorer</a>
+                                            <a href="/boutique-details" class="title">Shoes Shop.</a>
+                                            <a href="/boutique-details" class="more-btn">Explorer</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="shop-single-blog">
-                                        <img src="images/blog2.jpg" alt="#" />
+                                        <img src="https://via.placeholder.com/225x155" alt="#" />
                                         <div class="content">
                                             <p class="date">Adidogomé</p>
-                                            <a href="/#" class="title">Fashion Shop</a>
-                                            <a href="/#" class="more-btn">Explorer</a>
+                                            <a href="/boutique-details" class="title">Fashion Shop</a>
+                                            <a href="/boutique-details" class="more-btn">Explorer</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="shop-single-blog">
-                                        <img src="images/blog3.jpg" alt="#" />
+                                        <img src="https://via.placeholder.com/225x155" alt="#" />
                                         <div class="content">
                                             <p class="date">Adidogomé</p>
-                                            <a href="/#" class="title">Women Fashion Festive</a>
-                                            <a href="/#" class="more-btn">Explorer</a>
+                                            <a href="/boutique-details" class="title">Blessing and Joyce Shop</a>
+                                            <a href="/boutique-details" class="more-btn">Explorer</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="shop-single-blog">
-                                        <img src="images/blog1.jpg" alt="#" />
+                                        <img src="https://via.placeholder.com/225x155" alt="#" />
                                         <div class="content">
                                             <p class="date">Agoè</p>
-                                            <a href="/#" class="title">Sed adipiscing ornare.</a>
-                                            <a href="/#" class="more-btn">Explorer</a>
+                                            <a href="/boutique-details" class="title">Grossiste.</a>
+                                            <a href="/boutique-details" class="more-btn">Explorer</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="shop-single-blog">
-                                        <img src="images/blog2.jpg" alt="#" />
+                                        <img src="https://via.placeholder.com/225x155" alt="#" />
                                         <div class="content">
                                             <p class="date">Adidogomé</p>
-                                            <a href="/#" class="title">Man’s Fashion Winter Sale</a>
-                                            <a href="/#" class="more-btn">Explorer</a>
+                                            <a href="/boutique-details" class="title">AndroidPhone Shop Lomé</a>
+                                            <a href="/boutique-details" class="more-btn">Explorer</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="shop-single-blog">
-                                        <img src="images/blog3.jpg" alt="#" />
+                                        <img src="https://via.placeholder.com/225x155" alt="#" />
                                         <div class="content">
                                             <p class="date">Adidogomé</p>
-                                            <a href="/#" class="title">Women Fashion Festive</a>
-                                            <a href="/#" class="more-btn">Explorer</a>
+                                            <a href="/boutique-details" class="title">La femme malienne</a>
+                                            <a href="/boutique-details" class="more-btn">Explorer</a>
                                         </div>
                                     </div>
                                 </div>
