@@ -91,12 +91,10 @@ const Home = () => {
                             <div class="product-info">
                                 <div class="nav-main">
                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#man" role="tab">Man</a></li>
-                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#women" role="tab">Woman</a></li>
-                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#kids" role="tab">Kids</a></li>
-                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#accessories" role="tab">Accessories</a></li>
-                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#essential" role="tab">Essential</a></li>
-                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#prices" role="tab">Prices</a></li>
+                                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#man" role="tab">Homme</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#women" role="tab">Femme</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#kids" role="tab">Enfants</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#accessories" role="tab">Accessoires</a></li>
                                     </ul>
                                 </div>
                                 <div class="tab-content" id="myTabContent">
@@ -122,7 +120,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Women Tendance Collection</a></h3>
+                                                            <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -148,7 +146,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                                            <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -254,7 +252,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                                                            <h3><a href="product-details.html">Superbe chapeaux pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -280,7 +278,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                                                            <h3><a href="product-details.html">Vêtements Polo pour Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -307,7 +305,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                                                            <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span class="old">6.000 FCFA</span>
                                                                 <span>5.000 FCFA</span>
@@ -340,7 +338,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Women Tendance Collection</a></h3>
+                                                            <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -366,7 +364,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                                            <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -472,7 +470,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                                                            <h3><a href="product-details.html">Superbe chapeaux pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -498,7 +496,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                                                            <h3><a href="product-details.html">Vêtements Polo pour Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -525,7 +523,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                                                            <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span class="old">6.000 FCFA</span>
                                                                 <span>5.000 FCFA</span>
@@ -558,7 +556,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Women Tendance Collection</a></h3>
+                                                            <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -584,7 +582,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                                            <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -690,7 +688,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                                                            <h3><a href="product-details.html">Superbe chapeaux pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -716,7 +714,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                                                            <h3><a href="product-details.html">Vêtements Polo pour Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -743,7 +741,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                                                            <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span class="old">6.000 FCFA</span>
                                                                 <span>5.000 FCFA</span>
@@ -776,7 +774,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Women Tendance Collection</a></h3>
+                                                            <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -802,7 +800,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                                            <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -908,7 +906,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                                                            <h3><a href="product-details.html">Superbe chapeaux pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -934,7 +932,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                                                            <h3><a href="product-details.html">Vêtements Polo pour Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -961,7 +959,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                                                            <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span class="old">6.000 FCFA</span>
                                                                 <span>5.000 FCFA</span>
@@ -994,7 +992,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Women Tendance Collection</a></h3>
+                                                            <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1020,7 +1018,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                                            <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1126,7 +1124,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                                                            <h3><a href="product-details.html">Superbe chapeaux pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1152,7 +1150,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                                                            <h3><a href="product-details.html">Vêtements Polo pour Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1179,7 +1177,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                                                            <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span class="old">6.000 FCFA</span>
                                                                 <span>5.000 FCFA</span>
@@ -1212,7 +1210,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Women Tendance Collection</a></h3>
+                                                            <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1238,7 +1236,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                                            <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1344,7 +1342,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                                                            <h3><a href="product-details.html">Superbe chapeaux pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1370,7 +1368,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                                                            <h3><a href="product-details.html">Vêtements Polo pour Femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span>2.900 FCFA</span>
                                                             </div>
@@ -1397,7 +1395,7 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div class="product-content">
-                                                            <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                                                            <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
                                                             <div class="product-price">
                                                                 <span class="old">6.000 FCFA</span>
                                                                 <span>5.000 FCFA</span>
@@ -1473,7 +1471,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                                        <h3><a href="product-details.html">Lunettes de soleil noires pour femmes</a></h3>
                                         <div class="product-price">
                                             <span class="old">6.000 FCFA</span>
                                             <span>5.000 FCFA</span>
@@ -1498,7 +1496,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3><a href="product-details.html">Women Tendance Collection</a></h3>
+                                        <h3><a href="product-details.html">Collection Tendance Femmes</a></h3>
                                         <div class="product-price">
                                             <span>5.000 FCFA</span>
                                         </div>
@@ -1523,7 +1521,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                        <h3><a href="product-details.html">Superbe spectacle rose</a></h3>
                                         <div class="product-price">
                                             <span>5.000 FCFA</span>
                                         </div>
@@ -1563,11 +1561,7 @@ const Home = () => {
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 offset-md-2 col-xs-12">
-                            <div class="section-title mb-60">
-                                <span class="text-white wow fadeInDown" data-wow-delay=".2s" style={{ visibility: "visible", animationDelay: "0.2s", animationName: "fadeInDown" }}>Eshop Free Lite version</span>
-                                <h2 class="text-white wow fadeInUp" data-wow-delay=".4s" style={{ visibility: "visible", animationDelay: "0.4s", animationName: "fadeInUp" }}>Currently You are using free<br /> lite Version of Eshop.</h2>
-                                <p class="text-white wow fadeInUp" data-wow-delay=".6s" style={{ visibility: "visible", animationDelay: "0.6s", animationName: "fadeInUp" }}>Please, purchase full version of the template to get all pages,<br /> features and commercial license.</p>
-
+                            <div class="section-title">
                                 <div class="button">
                                     <a href="/" target="_blank" rel="nofollow" class="btn wow fadeInUp" data-wow-delay=".8s">Acheter maintenant</a>
                                 </div>
