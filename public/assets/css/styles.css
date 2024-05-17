@@ -1,0 +1,78 @@
+.img-cover {
+    object-fit: cover !important;
+    cursor: pointer;
+}
+
+/* User menu */
+.left-menu .block-title h2 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.left-menu .block-content {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.left-menu .block-content ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.left-menu .block-content ul li.active {
+    color: #fa812e;
+}
+
+.left-menu .block-content ul li.active a {
+    color: #fa812e;
+}
+
+.left-menu .block-content ul li:before {
+    content: '\f105';
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.left-menu .block-content ul li a {
+    color: black;
+}
+
+.left-menu .block-content ul li:hover {
+    padding-left: 10px;
+    color: #fa812e;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.left-menu .block-content ul li:hover a {
+    color: #fa812e;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.rtl .left-menu .block-content ul li:hover {
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+.dark .left-menu .block-content {
+    border-color: #404040;
+}
+
+.dark .left-menu .block-content ul li a {
+    color: #cbcbcb;
+}
