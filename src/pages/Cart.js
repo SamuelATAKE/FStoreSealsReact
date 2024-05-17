@@ -145,7 +145,7 @@ const Cart = () => {
                                     <div class="col-lg-8 col-md-5 col-12">
                                         <div class="left">
                                             <div class="coupon">
-                                                <form action="/#" target="_blank">
+                                                <form>
                                                     <input name="Coupon" placeholder="Entrez votre coupon" />
                                                     <button class="btn">Appliquer</button>
                                                 </form>

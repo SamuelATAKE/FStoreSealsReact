@@ -128,7 +128,7 @@ const CommonHeader = () => {
                                                 <ul class="nav main-menu menu navbar-nav">
                                                     <li class="active"><a href="/#">Accueil</a></li>
                                                     <li><a href="/#">Articles</a></li>
-                                                    <li><a href="/#">Boutiques</a></li>
+                                                    <li><a href="/boutiques">Boutiques</a></li>
                                                     <li><a href="/#">Achat<i class="ti-angle-down"></i><span class="new">Nouveau</span></a>
                                                         <ul class="dropdown">
                                                             <li><a href="/panier">Panier</a></li>
