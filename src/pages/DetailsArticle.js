@@ -31,8 +31,8 @@ const DetailsArticle = () => {
                                     <div class="product-gallery">
                                         <div class="flexslider-thumbnails">
                                             <ul class="slides">
-                                                <li data-thumb="https://via.placeholder.com/225x155" rel="adjustX:10, adjustY:">
-                                                    <img src="https://via.placeholder.com/225x155" alt="/#" />
+                                                <li data-thumb="/images/tshirt.jpg" rel="adjustX:10, adjustY:">
+                                                    <img src="/images/tshirt.jpg" alt="/#" />
                                                 </li>
                                                 <li data-thumb="https://via.placeholder.com/225x155">
                                                     <img src="https://via.placeholder.com/225x155" alt="/#" />
