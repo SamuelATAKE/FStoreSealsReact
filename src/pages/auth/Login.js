@@ -1,8 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react'
 import CommonHeader from '../../components/CommonHeader'
 import Footer from '../../components/Footer'
+import axios from 'axios';
+import { API_URL } from '../../variables/constants';
+import { toast } from 'react-toastify';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+    const [identifiant, setIdentifiant] = useState('');
+    const [password, setPassword] = useState('');
+
+    const navigate = useNavigate();
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        axios.post(`${API_URL}/auth/local`, {
+            identifier: identifiant,
+            password: password
+        })
+            .then(response => {
+                sessionStorage.setItem('token', response.data.jwt);
+                sessionStorage.setItem('user', JSON.stringify(response.data.user));
+                toast("Connexion réussie avec succès", { type: "success" });
+                navigate('/');
+                window.location.reload();
+            })
+            .catch(error => {
+                toast("Vérifier vos identifiants ou votre connexion internet");
+                console.log('An error occurred:', error.response);
+            });
+    }
     return (
         <>
             <CommonHeader />
@@ -27,18 +55,18 @@ const Login = () => {
                             <div class="login-form">
                                 <h2>Connexion</h2>
                                 <p>Merci de vous inscrire pour pouvoir payer plus rapidement</p>
-                                <form class="form" method="post" action="#">
+                                <form class="form" onSubmit={handleSubmit}>
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="form-group">
                                                 <label>Votre adresse mail<span>*</span></label>
-                                                <input type="email" name="email" placeholder="" required="required" />
+                                                <input type="email" name="email" placeholder="" required="required" onChange={(e) => setIdentifiant(e.target.value)} />
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group">
                                                 <label>Votre mot de passe<span>*</span></label>
-                                                <input type="password" name="password" placeholder="" required="required" />
+                                                <input type="password" name="password" placeholder="" required="required" onChange={(e) => setPassword(e.target.value)} />
                                             </div>
                                         </div>
                                         <div class="col-12">

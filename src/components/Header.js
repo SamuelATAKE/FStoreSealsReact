@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { AUTH_TOKEN } from "../variables/constants";
 
 const Header = () => {
     return (
@@ -9,23 +10,19 @@ const Header = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5 col-md-12 col-12">
-
                             <div class="top-left">
                                 <ul class="list-main">
                                     <li><i class="ti-headphone-alt"></i> +228 90 01 58 02</li>
                                     <li><i class="ti-email"></i> support@fstoreseals.com</li>
                                 </ul>
                             </div>
-
                         </div>
                         <div class="col-lg-7 col-md-12 col-12">
 
                             <div class="right-content">
                                 <ul class="list-main">
-                                    {/* <li><i class="ti-location-pin"></i>Votre localisation</li>
-                                    <li><i class="ti-alarm-clock"></i> <a href="/#">Daily deal</a></li> */}
-                                    <li><i class="ti-user"></i> <a href="/#">Mon compte</a></li>
-                                    <li><i class="ti-power-off"></i><a href="/connexion">Connexion</a></li>
+                                    {AUTH_TOKEN ? <li><i class="ti-user"></i> <a href="/profil">Mon compte</a></li> : null}
+                                    {AUTH_TOKEN ? <li><i class="ti-power-off"></i><a href="/connexion">Déconnexion</a></li> : <li><i class="ti-power-off"></i><a href="/connexion">Connexion</a></li>}
                                 </ul>
                             </div>
 
@@ -40,7 +37,7 @@ const Header = () => {
                         <div class="col-lg-2 col-md-2 col-12">
 
                             <div class="logo">
-                                <a href="/"><img src="images/logo.png" style={{ width: "25%" }} alt="logo" /></a>
+                                <a href="/"><img src="/images/logo.png" style={{ width: "25%" }} alt="logo" /></a>
                             </div>
 
                             <div class="search-top">

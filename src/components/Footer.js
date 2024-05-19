@@ -10,7 +10,7 @@ const Footer = () => {
                         <div class="col-lg-5 col-md-6 col-12">
                             <div class="single-footer about">
                                 <div class="logo">
-                                    <a href="/"><img src="images/logo.jpg" style={{ width: "17%" }} alt="/#" /></a>
+                                    <a href="/"><img src="/images/logo.jpg" style={{ width: "17%" }} alt="/#" /></a>
                                 </div>
                                 <p class="text">Votre marketplace digital pour vous permettre de faire décourvir vos articles à un public plus large et permettre aux consommateurs de bénéficier des services à distances à moindre coût dans le confort de leur maison.</p>
                                 <p class="call">Avez-vous une inquiétude? Appelez-nous 24h/7j<span><a href="tel:+22893456789">+228 93 45 67 89</a></span></p>
@@ -73,7 +73,7 @@ const Footer = () => {
                             </div>
                             <div class="col-lg-6 col-12">
                                 <div class="right">
-                                    <img src="images/payments.png" alt="/#" />
+                                    <img src="/images/payments.png" alt="/#" />
                                 </div>
                             </div>
                         </div>
