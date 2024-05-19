@@ -57,6 +57,7 @@ const MesBoutiques = () => {
     // };
 
     const handleOk = () => {
+        setConfirmLoading(true);
         const boutique = {
             "data": {
                 "nom": name,
@@ -80,7 +81,7 @@ const MesBoutiques = () => {
                 setOpen(false);
                 setReload(true);
                 toast("Boutique ajoutée avec succès");
-
+                setConfirmLoading(false);
             })
             .catch(error => {
                 console.log(error);
@@ -360,11 +361,11 @@ const MesBoutiques = () => {
                                 </Upload>
                             </div>
                         </div> */}
-                        <div class="col-12">
+                        {/* <div class="col-12">
                             <div class="form-group login-btn">
                                 <button class="btn" type="submit">Ajouter</button>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </form>
             </Modal>
