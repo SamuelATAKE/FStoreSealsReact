@@ -1,9 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import ShopNewsLetter from '../components/ShopNewsLetter'
 import Footer from '../components/Footer'
 import CommonHeader from '../components/CommonHeader'
+import axios from 'axios'
+import { API_URL, TOKEN } from '../variables/constants'
+import { useParams } from 'react-router-dom'
 
 const DetailsArticle = () => {
+    const [article, setArticle] = useState({});
+
+    const params = useParams();
+
+    useEffect(() => {
+        axios.get(`${API_URL}/articles?filters[id][$eq]=${params.id}`, {
+            headers: {
+                'Content-Type': 'application/json',
+                Authorization: `Bearer ${TOKEN}`
+            }
+        }).then(res => {
+            console.log("article", res.data.data);
+            setArticle(res.data.data[0]);
+        }).catch(err => {
+            console.log(err);
+        });
+    }, [params.id]);
     return (
         <>
             <CommonHeader />
@@ -50,7 +70,7 @@ const DetailsArticle = () => {
                                 <div class="col-lg-6 col-12">
                                     <div class="product-des">
                                         <div class="short">
-                                            <h4>Shirt homme</h4>
+                                            <h4>{article?.attributes?.nom}</h4>
                                             <div class="rating-main">
                                                 <ul class="rating">
                                                     <li><i class="fa fa-star"></i></li>
@@ -61,8 +81,8 @@ const DetailsArticle = () => {
                                                 </ul>
                                                 <a href="/#" class="total-review">(102) appréciations</a>
                                             </div>
-                                            <p class="price"><span class="discount">7.000 FCFA</span><s>8.000 FCFA</s> </p>
-                                            <p class="description">eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in</p>
+                                            <p class="price"><span class="discount">{article?.attributes?.prixUnitaire} FCFA</span> </p>
+                                            <p class="description">{article?.attributes?.description}</p>
                                         </div>
                                         <div class="color">
                                             <h4>Options disponibles <span>Couleur</span></h4>
@@ -106,7 +126,7 @@ const DetailsArticle = () => {
                                                 <a href="/#" class="btn min"><i class="fa fa-compress"></i></a>
                                             </div>
                                             <p class="cat">Catégorie :<a href="/#">Vêtements</a></p>
-                                            <p class="availability">Disponibilité : 180 produits En Stock</p>
+                                            <p class="availability">Disponibilité : {article?.attributes?.quantiteStock} produits En Stock</p>
                                         </div>
                                     </div>
                                 </div>

@@ -36,6 +36,7 @@ const MesBoutiques = () => {
     const [quartier, setQuartier] = useState('');
     const [boutiques, setBoutiques] = useState([]);
     const [reload, setReload] = useState(false);
+    const [nombreBoutique, setNombreBoutique] = useState(0);
 
     const navigate = useNavigate();
 
@@ -86,6 +87,7 @@ const MesBoutiques = () => {
             .catch(error => {
                 console.log(error);
                 toast("Erreur lors de l'ajout de la boutique");
+                setConfirmLoading(false);
             }
             );
     }
@@ -127,6 +129,7 @@ const MesBoutiques = () => {
             .then(response => {
                 console.log(response.data);
                 setBoutiques(response.data.data);
+                setNombreBoutique(response.data.data.length);
             })
             .catch(error => {
                 console.log(error);
@@ -142,7 +145,7 @@ const MesBoutiques = () => {
                 <nav class="nav nav-borders">
                     <a class="nav-link"
                         href="/profil">Profil</a>
-                    <a class="nav-link active ms-0" href="/mes-boutiques">Ma(mes) boutique(s)</a>
+                    {LOGGED_USER.profile === "MARCHAND" ? <a class="nav-link active ms-0" href="/mes-boutiques">Ma(mes) boutique(s)</a> : null}
                 </nav>
                 <hr class="mt-0 mb-4" />
                 <div class="row">
@@ -151,7 +154,7 @@ const MesBoutiques = () => {
                         <div class="card h-100 border-start-lg border-start-primary">
                             <div class="card-body">
                                 <div class="small text-muted">Revenu mensuel</div>
-                                <div class="h3">200.000 FCFA</div>
+                                <div class="h3">0 FCFA</div>
                                 <a class="text-arrow-icon small" href="#!">
                                     Passer au revenu annuel
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -169,7 +172,7 @@ const MesBoutiques = () => {
                         <div class="card h-100 border-start-lg border-start-secondary">
                             <div class="card-body">
                                 <div class="small text-muted">Paiements</div>
-                                <div class="h3"> 15 Mai 2024</div>
+                                <div class="h3"> - </div>
                                 <a class="text-arrow-icon small text-secondary" href="#!">
                                     Voir l'historique des paiements
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -186,7 +189,7 @@ const MesBoutiques = () => {
                         <div class="card h-100 border-start-lg border-start-success">
                             <div class="card-body">
                                 <div class="small text-muted">Nombre de boutiques</div>
-                                <div class="h3 d-flex align-items-center">02</div>
+                                <div class="h3 d-flex align-items-center">0{nombreBoutique}</div>
                                 <a class="text-arrow-icon small text-success" href="#!">
                                     boutique(s)
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"

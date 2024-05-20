@@ -1,9 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from '../components/Footer'
 import ShopNewsLetter from '../components/ShopNewsLetter'
 import CommonHeader from '../components/CommonHeader'
+import axios from 'axios'
+import { API_URL, TOKEN } from '../variables/constants'
+import { useNavigate, useParams } from 'react-router-dom'
 
 const BoutiqueDetails = () => {
+    const [articles, setArticles] = useState([]);
+    const params = useParams();
+    const navigate = useNavigate();
+    useEffect(() => {
+        axios.get(`${API_URL}/articles?filters[boutique][$eq]=${params.id}`, {
+            headers: {
+                'Content-Type': 'application/json',
+                Authorization: `Bearer ${TOKEN}`
+            }
+        }).then(res => {
+            console.log("articles", res.data);
+            setArticles(res.data.data);
+        }).catch(err => {
+            console.log(err);
+        });
+    }, [params.id]);
+
     return (
         <>
             <CommonHeader />
@@ -157,200 +177,56 @@ const BoutiqueDetails = () => {
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-sm-6">
-                                            <div class="single-product">
-                                                <div class="product-img">
-                                                    <a href="/article">
-                                                        <img class="default-img" src="https://via.placeholder.com/225x155" alt="#" />
-                                                        <img class="hover-img" src="https://via.placeholder.com/225x155" alt="#" />
-                                                    </a>
-                                                    <div class="button-head">
-                                                        <div class="product-action">
-                                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="/#"><i class=" ti-eye"></i><span>Achat rapide</span></a>
-                                                            <a title="Liste de souhaits" href="/#"><i class=" ti-heart "></i><span>Ajouter à la liste de souhaits</span></a>
-                                                            <a title="Comparaison" href="/#"><i class="ti-bar-chart-alt"></i><span>Ajouter à la Comparaison</span></a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a title="Ajouter au panier" href="/#">Ajouter au panier</a>
+                                {articles.map((article, index) => (
+                                    <div class="col-12" key={index}>
+                                        <div class="row" onClick={() => navigate(`/article/${article.id}`)}>
+                                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                                <div class="single-product">
+                                                    <div class="product-img">
+                                                        <a href="/article">
+                                                            <img class="default-img" src="https://via.placeholder.com/225x155" alt="#" />
+                                                            <img class="hover-img" src="https://via.placeholder.com/225x155" alt="#" />
+                                                        </a>
+                                                        <div class="button-head">
+                                                            <div class="product-action">
+                                                                <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="/#"><i class=" ti-eye"></i><span>Achat rapide</span></a>
+                                                                <a title="Liste de souhaits" href="/#"><i class=" ti-heart "></i><span>Ajouter à la liste de souhaits</span></a>
+                                                                <a title="Comparaison" href="/#"><i class="ti-bar-chart-alt"></i><span>Ajouter à la Comparaison</span></a>
+                                                            </div>
+                                                            <div class="product-action-2">
+                                                                <a title="Ajouter au panier" href="/#">Ajouter au panier</a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-8 col-md-6 col-12">
-                                            <div class="list-content">
-                                                <div class="product-content">
-                                                    <div class="product-price">
-                                                        <span>2.900 FCFA</span>
-                                                    </div>
-                                                    <h3 class="title"><a href="/article">Collection Tendance Femmes</a></h3>
-                                                    <div class="review-inner">
-                                                        <div class="ratings">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star-half-o"></i></li>
-                                                                <li class="total">(4.5)</li>
-                                                            </ul>
+                                            <div class="col-lg-8 col-md-6 col-12">
+                                                <div class="list-content">
+                                                    <div class="product-content">
+                                                        <div class="product-price">
+                                                            <span>{article?.attributes?.prixUnitaire} FCFA</span>
+                                                        </div>
+                                                        <h3 class="title"><a href={`/article/${article.id}`}>{article?.attributes?.nom}</a></h3>
+                                                        <div class="review-inner">
+                                                            <div class="ratings">
+                                                                <ul class="rating">
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star-half-o"></i></li>
+                                                                    <li class="total">(4.5)</li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <p class="des">{article?.attributes?.description}</p>
+                                                    <a href="/#" class="btn">Acheter</a>
                                                 </div>
-                                                <p class="des">nteger enim purus, posuere at ultricies eu, placerat a felis. Suspendisse aliquet urna pretium eros convallis interdum.  Suspendisse aliquet urna pretium eros convallis interdum. Quisque in arcu id dui vulputate mollis eget non arcu. Aenean et nulla purus. Mauris vel tellus non nunc mattis lobortis We are creative company here are many variation generators on the Internet tend to chunks as necessary interdum</p>
-                                                <a href="/#" class="btn">Acheter</a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-sm-6">
-                                            <div class="single-product">
-                                                <div class="product-img">
-                                                    <a href="/article">
-                                                        <img class="default-img" src="https://via.placeholder.com/225x155" alt="#" />
-                                                        <img class="hover-img" src="https://via.placeholder.com/225x155" alt="#" />
-                                                    </a>
-                                                    <div class="button-head">
-                                                        <div class="product-action">
-                                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="/#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                            <a title="Liste de souhaits" href="/#"><i class=" ti-heart "></i><span>Ajouter à la liste de souhaits</span></a>
-                                                            <a title="Comparaison" href="/#"><i class="ti-bar-chart-alt"></i><span>Ajouter à la Comparaison</span></a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a title="Ajouter au panier" href="/#">Ajouter au panier</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-8 col-md-6 col-12">
-                                            <div class="list-content">
-                                                <div class="product-content">
-                                                    <div class="product-price">
-                                                        <span>2.900 FCFA</span>
-                                                    </div>
-                                                    <h3 class="title"><a href="/article">Collection Tendances Femmes</a></h3>
-                                                    <div class="review-inner">
-                                                        <div class="ratings">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star-half-o"></i></li>
-                                                                <li class="total">(4.5)</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <p class="des">nteger enim purus, posuere at ultricies eu, placerat a felis. Suspendisse aliquet urna pretium eros convallis interdum.  Suspendisse aliquet urna pretium eros convallis interdum. Quisque in arcu id dui vulputate mollis eget non arcu. Aenean et nulla purus. Mauris vel tellus non nunc mattis lobortis We are creative company here are many variation generators on the Internet tend to chunks as necessary interdum</p>
-                                                <a href="/#" class="btn">Acheter</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-sm-6">
-                                            <div class="single-product">
-                                                <div class="product-img">
-                                                    <a href="/article">
-                                                        <img class="default-img" src="https://via.placeholder.com/225x155" alt="#" />
-                                                        <img class="hover-img" src="https://via.placeholder.com/225x155" alt="#" />
-                                                        <span class="price-dec">30% Off</span>
-                                                    </a>
-                                                    <div class="button-head">
-                                                        <div class="product-action">
-                                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="/#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                            <a title="Liste de souhaits" href="/#"><i class=" ti-heart "></i><span>Ajouter à la liste de souhaits</span></a>
-                                                            <a title="Comparaison" href="/#"><i class="ti-bar-chart-alt"></i><span>Ajouter à la Comparaison</span></a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a title="Ajouter au panier" href="/#">Ajouter au panier</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-8 col-md-6 col-12">
-                                            <div class="list-content">
-                                                <div class="product-content">
-                                                    <div class="product-price">
-                                                        <span>2.900 FCFA</span>
-                                                    </div>
-                                                    <h3 class="title"><a href="/article">Collection tendance Femmes</a></h3>
-                                                    <div class="review-inner">
-                                                        <div class="ratings">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star-half-o"></i></li>
-                                                                <li class="total">(4.5)</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <p class="des">nteger enim purus, posuere at ultricies eu, placerat a felis. Suspendisse aliquet urna pretium eros convallis interdum.  Suspendisse aliquet urna pretium eros convallis interdum. Quisque in arcu id dui vulputate mollis eget non arcu. Aenean et nulla purus. Mauris vel tellus non nunc mattis lobortis We are creative company here are many variation generators on the Internet tend to chunks as necessary interdum</p>
-                                                <a href="/#" class="btn">Acheter</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-sm-6">
-                                            <div class="single-product">
-                                                <div class="product-img">
-                                                    <a href="/article">
-                                                        <img class="default-img" src="https://via.placeholder.com/225x155" alt="#" />
-                                                        <img class="hover-img" src="https://via.placeholder.com/225x155" alt="#" />
-                                                        <span class="out-of-stock">Tendance</span>
-                                                    </a>
-                                                    <div class="button-head">
-                                                        <div class="product-action">
-                                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="/#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                            <a title="Liste de souhaits" href="/#"><i class=" ti-heart "></i><span>Ajouter à la liste de souhaits</span></a>
-                                                            <a title="Comparaison" href="/#"><i class="ti-bar-chart-alt"></i><span>Ajouter à la Comparaison</span></a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a title="Ajouter au panier" href="/panier">Ajouter au panier</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-8 col-md-6 col-12">
-                                            <div class="list-content">
-                                                <div class="product-content">
-                                                    <div class="product-price">
-                                                        <span>2.900 FCFA</span>
-                                                    </div>
-                                                    <h3 class="title"><a href="/article">Collection tendance Femmes</a></h3>
-                                                    <div class="review-inner">
-                                                        <div class="ratings">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star"></i></li>
-                                                                <li><i class="fa fa-star-half-o"></i></li>
-                                                                <li class="total">(4.5)</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <p class="des">nteger enim purus, posuere at ultricies eu, placerat a felis. Suspendisse aliquet urna pretium eros convallis interdum.  Suspendisse aliquet urna pretium eros convallis interdum. Quisque in arcu id dui vulputate mollis eget non arcu. Aenean et nulla purus. Mauris vel tellus non nunc mattis lobortis We are creative company here are many variation generators on the Internet tend to chunks as necessary interdum</p>
-                                                <a href="/#" class="btn">Acheter</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                ))}
                                 <div class="col-12">
                                     <div class="pagination">
                                         <ul class="pagination-list">

@@ -24,9 +24,9 @@ function App() {
         <Route path="/profil" element={<Profil />} />
         <Route path="/mes-boutiques" element={<MesBoutiques />} />
         <Route path="/ma-boutique/:id" element={<MaBoutique />} />
-        <Route path="/boutique-details" element={<BoutiqueDetails />} />
+        <Route path="/boutique-details/:id" element={<BoutiqueDetails />} />
         <Route path="/boutiques" element={<Boutiques />} />
-        <Route path="/article" element={<DetailsArticle />} />
+        <Route path="/article/:id" element={<DetailsArticle />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/paiement" element={<Checkout />} />
         <Route path="/panier" element={<Cart />} />

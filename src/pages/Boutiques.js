@@ -1,10 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import CommonHeader from '../components/CommonHeader'
 import ShopServices from '../components/ShopServices'
 import ShopNewsLetter from '../components/ShopNewsLetter'
 import Footer from '../components/Footer'
+import axios from 'axios'
+import { API_URL, LOGGED_USER, TOKEN } from '../variables/constants'
+import { useNavigate } from 'react-router-dom'
 
 const Boutiques = () => {
+    const [boutiques, setBoutiques] = useState([]);
+    const navigate = useNavigate();
+    useEffect(() => {
+        axios.get(`${API_URL}/boutiques?marchand=${LOGGED_USER.id}`, {
+            headers: {
+                Authorization: `Bearer ${TOKEN}`
+            }
+        })
+            .then(response => {
+                console.log(response.data);
+                setBoutiques(response.data.data);
+            })
+            .catch(error => {
+                console.log(error);
+            });
+    }, []);
     return (
         <>
             <CommonHeader />
@@ -28,96 +47,18 @@ const Boutiques = () => {
                     <div class="row">
                         <div class="col-12">
                             <div class="row">
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="shop-single-blog">
-                                        <img src="https://via.placeholder.com/225x155" alt="#" />
-                                        <div class="content">
-                                            <p class="date">Agoè</p>
-                                            <a href="/boutique-details" class="title">Keas Shop</a>
-                                            <a href="/boutique-details" class="more-btn">Explorer</a>
+                                {boutiques.map((btq, index) => (
+                                    <div class="col-lg-4 col-md-6 col-12" key={index}>
+                                        <div class="shop-single-blog" onClick={() => navigate(`/boutique-details/${btq.id}`)}>
+                                            <img src="https://via.placeholder.com/225x155" alt="#" />
+                                            <div class="content">
+                                                <p class="date">{btq.attributes.nom}</p>
+                                                <a href={`/boutique-details/${btq.id}`} class="title">{btq.attributes.quartier}</a>
+                                                <a href={`/boutique-details/${btq.id}`} class="more-btn">Explorer</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="shop-single-blog">
-                                        <img src="https://via.placeholder.com/225x155" alt="#" />
-                                        <div class="content">
-                                            <p class="date">Adidogomé</p>
-                                            <a href="/boutique-details" class="title">La Class A</a>
-                                            <a href="/boutique-details" class="more-btn">Explorer</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="shop-single-blog">
-                                        <img src="https://via.placeholder.com/225x155" alt="#" />
-                                        <div class="content">
-                                            <p class="date">Adidogomé</p>
-                                            <a href="/boutique-details" class="title">Electronique du millénium</a>
-                                            <a href="/boutique-details" class="more-btn">Explorer</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="shop-single-blog">
-                                        <img src="https://via.placeholder.com/225x155" alt="#" />
-                                        <div class="content">
-                                            <p class="date">Agoè</p>
-                                            <a href="/boutique-details" class="title">Shoes Shop.</a>
-                                            <a href="/boutique-details" class="more-btn">Explorer</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="shop-single-blog">
-                                        <img src="https://via.placeholder.com/225x155" alt="#" />
-                                        <div class="content">
-                                            <p class="date">Adidogomé</p>
-                                            <a href="/boutique-details" class="title">Fashion Shop</a>
-                                            <a href="/boutique-details" class="more-btn">Explorer</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="shop-single-blog">
-                                        <img src="https://via.placeholder.com/225x155" alt="#" />
-                                        <div class="content">
-                                            <p class="date">Adidogomé</p>
-                                            <a href="/boutique-details" class="title">Blessing and Joyce Shop</a>
-                                            <a href="/boutique-details" class="more-btn">Explorer</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="shop-single-blog">
-                                        <img src="https://via.placeholder.com/225x155" alt="#" />
-                                        <div class="content">
-                                            <p class="date">Agoè</p>
-                                            <a href="/boutique-details" class="title">Grossiste.</a>
-                                            <a href="/boutique-details" class="more-btn">Explorer</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="shop-single-blog">
-                                        <img src="https://via.placeholder.com/225x155" alt="#" />
-                                        <div class="content">
-                                            <p class="date">Adidogomé</p>
-                                            <a href="/boutique-details" class="title">AndroidPhone Shop Lomé</a>
-                                            <a href="/boutique-details" class="more-btn">Explorer</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="shop-single-blog">
-                                        <img src="https://via.placeholder.com/225x155" alt="#" />
-                                        <div class="content">
-                                            <p class="date">Adidogomé</p>
-                                            <a href="/boutique-details" class="title">La femme malienne</a>
-                                            <a href="/boutique-details" class="more-btn">Explorer</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                ))}
                                 <div class="col-12">
                                     <div class="pagination center">
                                         <ul class="pagination-list">

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import CommonHeader from '../../components/CommonHeader'
 import { Avatar, List, Modal, Select } from 'antd'
 import axios from 'axios';
-import { API_URL, TOKEN } from '../../variables/constants';
+import { API_URL, LOGGED_USER, TOKEN } from '../../variables/constants';
 import Footer from '../../components/Footer';
 import { toast } from 'react-toastify';
 import { useParams } from 'react-router-dom';
@@ -21,6 +21,23 @@ const MaBoutique = () => {
     const [categories, setCategories] = useState([]);
     const [confirmLoading, setConfirmLoading] = useState(false);
     const [reload, setReload] = useState(false);
+    const [nombreBoutique, setNombreBoutique] = useState(0);
+
+    useEffect(() => {
+        axios.get(`${API_URL}/boutiques?marchand=${LOGGED_USER.id}`, {
+            headers: {
+                Authorization: `Bearer ${TOKEN}`
+            }
+        })
+            .then(response => {
+                console.log(response.data);
+                setNombreBoutique(response.data.data.length);
+            })
+            .catch(error => {
+                console.log(error);
+            });
+    }
+        , []);
 
     const params = useParams();
 
@@ -69,6 +86,7 @@ const MaBoutique = () => {
     }
 
     const handleOk = () => {
+        setConfirmLoading(true);
         const article = {
             "data": {
                 "nom": nom,
@@ -93,10 +111,12 @@ const MaBoutique = () => {
                 setOpen(false);
                 setReload(true);
                 toast("Article ajouté avec succès");
+                setConfirmLoading(false);
             })
             .catch(error => {
                 console.log(error);
                 toast("Erreur lors de l'ajout de l'article");
+                setConfirmLoading(false);
             }
             );
     }
@@ -109,7 +129,7 @@ const MaBoutique = () => {
                 <nav class="nav nav-borders">
                     <a class="nav-link"
                         href="/profil">Profil</a>
-                    <a class="nav-link active ms-0" href="/mes-boutiques">Ma(mes) boutique(s)</a>
+                    {LOGGED_USER.profile === "MARCHAND" ? <a class="nav-link active ms-0" href="/mes-boutiques">Ma(mes) boutique(s)</a> : null}
                 </nav>
                 <hr class="mt-0 mb-4" />
                 <div class="row">
@@ -118,7 +138,7 @@ const MaBoutique = () => {
                         <div class="card h-100 border-start-lg border-start-primary">
                             <div class="card-body">
                                 <div class="small text-muted">Revenu mensuel</div>
-                                <div class="h3">200.000 FCFA</div>
+                                <div class="h3">0 FCFA</div>
                                 <a class="text-arrow-icon small" href="#!">
                                     Passer au revenu annuel
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -136,7 +156,7 @@ const MaBoutique = () => {
                         <div class="card h-100 border-start-lg border-start-secondary">
                             <div class="card-body">
                                 <div class="small text-muted">Paiements</div>
-                                <div class="h3"> 15 Mai 2024</div>
+                                <div class="h3"> -</div>
                                 <a class="text-arrow-icon small text-secondary" href="#!">
                                     Voir l'historique des paiements
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -153,7 +173,7 @@ const MaBoutique = () => {
                         <div class="card h-100 border-start-lg border-start-success">
                             <div class="card-body">
                                 <div class="small text-muted">Nombre de boutiques</div>
-                                <div class="h3 d-flex align-items-center">02</div>
+                                <div class="h3 d-flex align-items-center">0{nombreBoutique}</div>
                                 <a class="text-arrow-icon small text-success" href="#!">
                                     boutique(s)
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -192,10 +212,14 @@ const MaBoutique = () => {
                                     <List.Item.Meta
                                         avatar={<Avatar src="https://via.placeholder.com/550x750" />}
                                         title={<a href="https://ant.design">{item.attributes?.nom}</a>}
-                                        description={item.attributes.description}
+                                        description={
+                                            <>
+                                                <div>{item.attributes.description}</div>
+                                                <div>Couleur: {item.attributes.couleur}</div>
+                                                {/* <div>Catégorie: {item.attributes.categorie}</div> */}
+                                            </>
+                                        }
                                     />
-                                    <div>Couleur: {item.attributes.couleur}</div>
-                                    <div>Catégorie: {item.attributes.categorie.nom}</div>
                                 </List.Item>
                             )}
                         />
@@ -348,11 +372,11 @@ const MaBoutique = () => {
                                 />
                             </div>
                         </div>
-                        <div class="col-12">
+                        {/* <div class="col-12">
                             <div class="form-group login-btn">
                                 <button class="btn" onClick={() => handleOk()}>Ajouter</button>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </form>
             </Modal>

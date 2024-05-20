@@ -2,8 +2,10 @@ import React from 'react'
 import CommonHeader from '../../components/CommonHeader'
 import Footer from '../../components/Footer'
 import "../../styles/profil.css"
+import { LOGGED_USER } from '../../variables/constants'
 
 const Profil = () => {
+
     return (
         <>
             <CommonHeader />
@@ -12,7 +14,7 @@ const Profil = () => {
                 <nav class="nav nav-borders">
                     <a class="nav-link active ms-0"
                         href="/profil">Profil</a>
-                    <a class="nav-link" href="/mes-boutiques">Boutiques</a>
+                    {LOGGED_USER.profile === "MARCHAND" ? <a class="nav-link" href="/mes-boutiques">Boutiques</a> : null}
                 </nav>
                 <hr class="mt-0 mb-4" />
                 <div class="row">
