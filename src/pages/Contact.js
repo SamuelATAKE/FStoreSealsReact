@@ -79,7 +79,7 @@ const Contact = () => {
                                         <i class="fa fa-phone"></i>
                                         <h4 class="title">Contactez-nus maintenant:</h4>
                                         <ul>
-                                            <li>+228 93 45 67 89</li>
+                                            <li>+228 90 12 05 01</li>
                                             <li>+228 96 72 45 21</li>
                                         </ul>
                                     </div>
@@ -88,7 +88,7 @@ const Contact = () => {
                                         <h4 class="title">Email:</h4>
                                         <ul>
                                             <li><a href="mailto:info@yourwebsite.com">info@fstoreseals.com</a></li>
-                                            <li><a href="mailto:info@yourwebsite.com">support@fstoreseals.com</a></li>
+                                            <li><a href="mailto:info@yourwebsite.com">udodani9@gmail.com</a></li>
                                         </ul>
                                     </div>
                                     <div class="single-info">

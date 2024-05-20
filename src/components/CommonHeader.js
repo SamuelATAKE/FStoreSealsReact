@@ -11,8 +11,8 @@ const CommonHeader = () => {
                         <div class="col-lg-5 col-md-12 col-12">
                             <div class="top-left">
                                 <ul class="list-main">
-                                    <li><i class="ti-headphone-alt"></i> +228 90 01 58 02</li>
-                                    <li><i class="ti-email"></i> support@fstoreseals.com</li>
+                                    <li><i class="ti-headphone-alt"></i> +228 90 12 05 01</li>
+                                    <li><i class="ti-email"></i> udodani9@gmail.com</li>
                                 </ul>
                             </div>
                         </div>
